@@ -2,5 +2,4 @@ FROM dockerfile/haproxy
 MAINTAINER Dmitry Zhukov <dmitry.zhukov@gmail.com>
 
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
-#RUN kill -1 1
-RUN service reload haproxy
+RUN kill -1 1
